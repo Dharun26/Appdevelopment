@@ -1,0 +1,46 @@
+.background{
+  background-image: url("./hd.avif");
+  background-size: cover;
+  height:110%;
+
+}
+.top-bar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+.alllert{
+ 
+ border-radius: 30px;
+ margin: 0px 100px;
+ width: 34.25%;
+
+}
+.nav-menu {
+  list-style: none;
+  padding: 0px ;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+
+}
+
+.nav-menu a {
+  color: rgb(252, 243, 243);
+  text-decoration: none;
+  transition: color 0.3s;
+  
+}
+
+.nav-menu a:hover {
+  color: #66ccff;
+}
