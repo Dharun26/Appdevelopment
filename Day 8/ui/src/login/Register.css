@@ -1,0 +1,116 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #0e0202;
+    background-size: cover;
+    
+    display: relative;
+    left: 700px;
+    background-image: url("https://media.istockphoto.com/id/1391602307/photo/white-fractal-horizon.jpg?s=612x612&w=0&k=20&c=2L6arDaHocyv-nLtniZTRv26sRfB4pafJhKxLsAYdTM=");
+   
+  }
+  .form {
+    width: 300px;
+    text-align: center;
+
+  }
+  .bu{
+    color: black;
+    padding:10px ;
+    margin-top: 20px;
+    align-items: center;
+    width: 80%;
+  }
+  .linkk{
+    color: black;
+  }
+  .link{
+    color: #0e0202;
+    padding: 118px;
+  }
+  .bitt{
+     width: 300px;
+     padding: 50px ;
+  }
+  .buttt{
+    color: #0e0202;
+  }
+  
+  
+  .login-container {
+    position: relative;
+    left: 7px;
+    background-color: rgba(40, 132, 117, 0.839);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px rgba(59, 59, 64, 0.581);
+    align-items: center;
+  }
+  
+  .top-bar{
+    margin-top: -500px -200px;
+    background-color: #8a54d1e5;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+   
+  }
+ 
+  .logo{
+    width: 200px;
+    font-size: larger;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #efeaee;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .a{
+    position: relative;
+    right: 5px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 5px;
+  }
+ .toast{
+     content: icon;
+
+ }
+  .input{
+    border-radius: 900px;
+    background-color: #faf6f6c6;
+    border-radius: 5px;
+  }
