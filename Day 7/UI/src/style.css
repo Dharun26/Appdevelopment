@@ -1,0 +1,182 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+* {
+  box-sizing: border-box;
+}
+.avail{
+  
+   background-image: url("https://images.pexels.com/photos/122252/pexels-photo-122252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   background-size: cover;
+   height: 100%;
+}
+.search-container {
+  
+  border-color: #213844 ;
+  box-shadow: 1px 1px 5px 1px grey;
+  border-radius: 10px;
+  width: 340px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 216, 223);
+  flex-direction: column;
+  margin: 0px 100px;
+  position: relative;
+  left: 1.5px;
+  font-family: Apple chancery, cursive;
+}
+.search-container .form-group {
+  width: 150px;
+  font-family: Apple chancery, cursive;
+}
+.search-container input {
+  width: 100%;
+  padding: 5px;
+}
+.search-container button {
+  margin-top: 20px;
+  border: none;
+  width: 120px;
+  padding: 10px;
+  background-color: green;
+  color: whitesmoke;
+}
+
+.search-container button:hover {
+  background-color: burlywood;
+  color: black;
+  cursor: pointer;
+}
+
+.was-validated input:invalid {
+  background-color: lightpink;
+  border: solid red;
+}
+
+.error-alert {
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: lightpink;
+  border: solid coral;
+}
+.avail h4{
+     margin: 20px 470px;
+}
+.buses-avail-container .bus-avail {
+  display: flex;
+  flex-direction: column;
+  background: wheat;
+  width: 500px;
+  padding: 0 10px;
+  margin:40px 500px;
+  border-radius: 6px;
+}
+
+.buses-avail-container .bus-avail:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.seat {
+  visibility: hidden;
+  border: 10px solid;
+  
+}
+
+.seat + label {
+  background-color: lightcyan;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 10px;
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.seat:checked + label {
+  background-color: rgb(241, 183, 112);
+
+  
+}
+.seat:disabled + label {
+  background-color: lightsalmon;
+  cursor: not-allowed;
+}
+.sele{
+  text-align: center;
+}
+
+.passinfo {
+  padding: 20px;
+  text-align: center;
+ background-size: cover;
+}
+
+.passbox {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  background-color: #ccc;
+}
+.eee{
+  background-size: cover;
+  height: 82.25%;
+}
+.www{
+  background-size: cover;
+  height: 82.25%;
+}
+@media screen and (max-width: 600px) {
+  .passbox {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+
+.seat-container {
+  display: flex;
+  width: 100px;
+  padding: 10px 620px;
+
+  flex-wrap: wrap;
+ 
+}
+.proceed {
+  text-align: center;
+  color: black;
+  margin: 20px 550px;
+  width: 100px;
+}
+
+.text-center{
+  color: #ccc;
+}
+
+.buses-avail-container{
+  box-radius:10px;
+}
+
+.sele{
+  background-image: url("https://images.pexels.com/photos/122252/pexels-photo-122252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
