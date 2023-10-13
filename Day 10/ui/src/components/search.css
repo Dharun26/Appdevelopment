@@ -1,0 +1,54 @@
+.background{
+  background-image: url("https://images.pexels.com/photos/870318/pexels-photo-870318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  height:110%;
+
+}
+.top-bar {
+  background-color: #213844;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+  font-family: Apple chancery, cursive;
+  font-size: larger;
+}
+
+.logo {
+  font-size: 24px;
+}
+.alllert{
+ 
+ border-radius: 30px;
+ margin: 0px 100px;
+ width: 34.25%;
+
+}
+.nav-menu {
+  list-style: none;
+  padding: 3px ;
+  display: flex;
+  position: relative;
+  left:20px;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+
+}
+
+.nav-menu a {
+  color: rgb(252, 243, 243);
+  text-decoration: none;
+  transition: color 0.3s;
+  
+}
+
+.nav-menu a:hover {
+  color: #213844;
+}
+.search-container{
+  color: #213844
+}
